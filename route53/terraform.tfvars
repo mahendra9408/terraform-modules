@@ -1,0 +1,6 @@
+aws_region      = "us-east-1"
+domain_name     = "example.com"
+www_ip_address  = "192.0.2.1"
+s3_bucket_name  = "terraform-state-bucket"
+s3_key          = "route53/terraform.tfstate"
+dynamodb_table  = "terraform-lock-table"
